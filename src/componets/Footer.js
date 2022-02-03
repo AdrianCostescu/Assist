@@ -12,10 +12,12 @@ const FooterBox = styled.div`
 
 const Create = styled.p`
   color: #515356;
+  margin-left: 20px;
 `;
 
 const Assist = styled.p`
   color: #515356;
+  margin-right: 20px;
 `;
 
 function Footer() {

@@ -7,11 +7,12 @@ import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 
 const Page = styled.div`
+  width: 100%;
   display: flex;
 `;
 
 const PageHome = styled.div`
-  width: 100%;
+  width: 80%;
   display: flex;
   flex-direction: column;
 `;
@@ -24,8 +25,8 @@ function App() {
         <PageHome>
           <Routes>
             <Route path="/" element={<Home />}></Route>
-            <Route path='about' element={<About />}></Route>
-            <Route path='contact' element={<Contact />}></Route>
+            <Route path="about" element={<About />}></Route>
+            <Route path="contact" element={<Contact />}></Route>
           </Routes>
           <Footer />
         </PageHome>
